@@ -620,12 +620,16 @@
         <script>
              (adsbygoogle = window.adsbygoogle || []).push({});
         </script> -->
-    </center>
-    <audio controls autoplay>
-      <source src="audio/audio.mp3" type="laiba">
-      <!-- <source src="horse.mp3" type="audio/mpeg"> -->
-    Your browser does not support the audio element.
-    </audio>
+
+
+    <audio id="audiocracker" src="audio/audio.mp3" autostart="true"></audio>
+    <script>
+      function PlaySound() {
+        var sound = document.getElementById("audiocracker");
+        sound.play()
+      }
+      PlaySound()
+    </script>
     
     <br><br>
     <div style="animation:swing 4s infinite;
@@ -780,14 +784,7 @@
       }
     }, 1000); -->
   <!-- </script> -->
-  <audio id="audiocracker" src="audio/audio.mp3" autostart="true"></audio>
-  <script>
-    function PlaySound() {
-      var sound = document.getElementById("audiocracker");
-      sound.play()
-    }
-    PlaySound()
-  </script>
+
 
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-155211370-3"></script>
   <script>
