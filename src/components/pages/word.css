@@ -1,0 +1,26 @@
+/* wordPage.css */
+
+.word-container {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .word-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .word-text h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .word-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
