@@ -14,20 +14,20 @@
         title: "MS Word",
         description: " Where words become art.",
         imgUrl: img1,
-        link: <a href="https://docs.google.com/document/d/1bdfAecxDfdq4nIf8s--rZpyw2uEO5_4p/edit?usp=sharing&ouid=106436205468696130666&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer"style={{ color: 'white' }}>View Resoruces >> </a>,
+        link: <a href="https://docs.google.com/document/d/1bdfAecxDfdq4nIf8s--rZpyw2uEO5_4p/edit?usp=sharing&ouid=106436205468696130666&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer"style={{ color: 'white' }}>View Resoruces {">>"} </a>,
       },
       {
         title: "MS Paint",
         description: "Fueling creativity, one pixel at a time.",
         imgUrl: img2,
-        link: <a href="https://docs.google.com/document/d/1smZ88sEKCsRvskuhkXCXFCB-pnyK0M6L/edit?usp=sharing&ouid=106436205468696130666&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer"style={{ color: 'white' }}>View Resoruces >> </a>,
+        link: <a href="https://docs.google.com/document/d/1smZ88sEKCsRvskuhkXCXFCB-pnyK0M6L/edit?usp=sharing&ouid=106436205468696130666&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer"style={{ color: 'white' }}>View Resoruces {">>"}</a>,
         
       },
       {
         title: "Canva",
         description: "Imagination put to good use.",
         imgUrl: img3,
-        link: <a href="https://www.canva.com/" target="_blank" rel="noopener noreferrer"style={{ color: 'white' }}>View Resoruces >> </a>,
+        link: <a href="https://www.canva.com/" target="_blank" rel="noopener noreferrer"style={{ color: 'white' }}>View Resoruces {">>"} </a>,
       },
     ];
 
