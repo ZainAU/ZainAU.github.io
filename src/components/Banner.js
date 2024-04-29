@@ -58,7 +58,9 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline" style={{color:"black"}}>Resources for Digital Literacy</span>
                 <h2 style={{color:"black", fontSize:"35px"}}>{`Hello!`} <span className="txt-rotate" dataperiod="10" data-rotate='[ "We are from Habib University", "This is our Khidmat website"]'><span className="wrap" style={{ color: 'black' }}>{text}</span></span></h2>
+                <div className="ilovesudais">
                   <p   style={{color:"black", fontSize:"15px", fontWeight:700 }}>Our Khidmat project, "Digital Literacy for Teens," aimed to empower students with foundational computer skills and ignite their passion for technology.  We divided the curriculum into four key areas.  Basic Computer Operation focused on essential navigation and file management skills. Software Applications delved into document creation and formatting with MS Word, basic image manipulation with Paint, and creative design projects using Canva.  Safe Internet Practices emphasized responsible online behavior and information evaluation.</p>
+                </div>
                   {/* <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button> */}
               </div>}
             </TrackVisibility>
@@ -67,7 +69,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img  src={bgimg} alt="Header Img"/>
+                  <img className="hero-img" src={bgimg} alt="Header Img"/>
                 </div>}
             </TrackVisibility>
           </Col>

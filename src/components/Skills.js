@@ -20,7 +20,7 @@ export const Skills = () => {
                 ]}
                 radius={40} // Adjust the radius to make the chart smaller
                 label={({ dataEntry }) => `${dataEntry.title}: ${dataEntry.value}%`} // Add label for each part
-                labelStyle={{ fontSize: '3.5px', fill: '#fff', fontFamily: 'Outlaw' }} // Adjust label style
+                labelStyle={{ fontSize: '3.5px', fill: '#fff', fontFamily: 'Centra' }} // Adjust label style
                 style={{ height: '350px', width: '350px' }} // Adjust the size of the chart container
               />
             </div>
