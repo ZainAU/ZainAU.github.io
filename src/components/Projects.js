@@ -27,7 +27,7 @@
         title: "Canva",
         description: "Imagination put to good use.",
         imgUrl: img3,
-        link: <a href="https://www.canva.com/" target="_blank" rel="noopener noreferrer"style={{ color: 'white' }}>View Resoruces {">>"} </a>,
+        link: <a href="https://docs.google.com/document/d/1_VuGVaX9atgItZMhb7WSZR8H9zPEqy5ptxR-g-W36Ak/edit?usp=sharing " target="_blank" rel="noopener noreferrer"style={{ color: 'white' }}>View Resoruces {">>"} </a>,
       },
     ];
 
