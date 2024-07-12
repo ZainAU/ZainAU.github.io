@@ -1,0 +1,68 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* padding: 20px; */
+    background-color: #f0f0f0;
+
+}
+h1 {
+    font-size: 64px;
+    background-color: aquamarine;
+    /* padding: 10%; */
+    /* text-decoration: underline; */
+    font-weight: bold;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: #f0f0f0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    max-width: 50%;
+    width: 100%;
+    /* background-color: lightblue; */
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: inline;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 10%;
+    
+}
+ul {
+    list-style-type: none; /* Removes bullets from the list */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    font-size: 1.25rem;
+}
+li {
+    margin-bottom: 0.5rem;
+}
+a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #b31800;
+}
+.social-media img {
+width: 30px; /* Adjust as needed */
+height: 30px; /* Adjust as needed */
+vertical-align: middle; /* Align images vertically */
+}
